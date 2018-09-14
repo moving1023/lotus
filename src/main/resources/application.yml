@@ -1,3 +1,8 @@
 server:
   port: 9527
   context-path: /lotus
+
+# job表达式
+job:
+  cron:
+    reload-menu: 0/5 * * * * ?
